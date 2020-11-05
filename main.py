@@ -3,6 +3,7 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from module5 import useful_functions
 
 
 def print_hi(name):
@@ -72,5 +73,7 @@ if __name__ == '__main__':
     nums = [1,3,5]
     print("Nums: {2}, {0}, {2}".format(nums[0], nums[1], nums[2]))
 
+    #useful function usage
+    useful_functions.string_functions_print()
 
 
