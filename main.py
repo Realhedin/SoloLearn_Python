@@ -74,6 +74,8 @@ if __name__ == '__main__':
     print("Nums: {2}, {0}, {2}".format(nums[0], nums[1], nums[2]))
 
     #useful function usage
+    print("String functions:")
     useful_functions.string_functions_print()
-
+    print("Numeric functions:")
+    useful_functions.numberic_functions_print()
 
