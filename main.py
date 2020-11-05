@@ -3,6 +3,7 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from module5 import useful_functions,text_analyzer
 
 
 def print_hi(name):
@@ -67,6 +68,20 @@ if __name__ == '__main__':
     #list of i^2 from 1 until 10 but adding only even
     sqs2 = [i**2 for i in range(10) if i**2 % 2 ==0]
     print(sqs2)
+    #string formatting
+    print("Numbers: {x}, {y}".format(x=5,y=7))
+    nums = [1,3,5]
+    print("Nums: {2}, {0}, {2}".format(nums[0], nums[1], nums[2]))
 
+    #useful function usage
+    print("String functions:")
+    useful_functions.string_functions_print()
+    print("Numeric functions:")
+    useful_functions.numberic_functions_print()
+    print("List functions:")
+    useful_functions.list_functions_print()
 
+    #text analyzer
+    print("count characters in file:")
+    text_analyzer.read_file_and_count_characters("testfile.txt",'r')
 
