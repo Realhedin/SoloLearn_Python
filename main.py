@@ -67,6 +67,10 @@ if __name__ == '__main__':
     #list of i^2 from 1 until 10 but adding only even
     sqs2 = [i**2 for i in range(10) if i**2 % 2 ==0]
     print(sqs2)
+    #string formatting
+    print("Numbers: {x}, {y}".format(x=5,y=7))
+    nums = [1,3,5]
+    print("Nums: {2}, {0}, {2}".format(nums[0], nums[1], nums[2]))
 
 
 
