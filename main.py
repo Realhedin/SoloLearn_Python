@@ -78,4 +78,6 @@ if __name__ == '__main__':
     useful_functions.string_functions_print()
     print("Numeric functions:")
     useful_functions.numberic_functions_print()
+    print("List functions:")
+    useful_functions.list_functions_print()
 

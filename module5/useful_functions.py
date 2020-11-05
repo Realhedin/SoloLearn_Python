@@ -28,3 +28,15 @@ def numberic_functions_print():
     print(abs(42))
     print(sum([1, 2, 3, 4, 5]))
     print(round(7.1))
+
+def list_functions_print():
+    nums = [55, 44, 33, 22, 11]
+    #if requires all elements to be greater than 5
+    if all([i > 5 for i in nums]):
+        print("All larger than 5")
+    #if requires that at least one satisfy
+    if any([i % 2 == 0 for i in nums]):
+        print("At least one is even")
+    #iterate through list with index and values
+    for idx, v in enumerate(nums):
+        print(idx, v)
