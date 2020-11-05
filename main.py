@@ -3,7 +3,7 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-from module5 import useful_functions
+from module5 import useful_functions,text_analyzer
 
 
 def print_hi(name):
@@ -80,4 +80,8 @@ if __name__ == '__main__':
     useful_functions.numberic_functions_print()
     print("List functions:")
     useful_functions.list_functions_print()
+
+    #text analyzer
+    print("count characters in file:")
+    text_analyzer.read_file_and_count_characters("testfile.txt",'r')
 
